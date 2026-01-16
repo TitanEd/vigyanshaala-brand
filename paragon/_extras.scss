@@ -1,0 +1,107 @@
+// theme toggle button
+
+#footer.tutor-container{
+    display: none;
+}
+
+.theme-toggle-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .light-theme-icon > span, .dark-theme-icon > span{
+        width: 18px;
+        color: $primary;
+    }
+
+    .toggle-switch {
+        display: flex;
+        margin: 0 2px;
+
+        label {
+            margin: 0
+        }
+
+/* The switch - the box around the slider */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 45px;
+            height: 24px;
+
+            /* Hide default HTML checkbox */
+            input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+            /* The slider */
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #AEC7F6;
+                transition: .4s;
+
+                &::before{
+                    position: absolute;
+                    content: "";
+                    height: 20px;
+                    width: 20px;
+                    left: 3px;
+                    bottom: 2px;
+                    background-color: white;
+                    transition: .4s;
+                }
+
+                &.round{
+                    border-radius: 34px;
+                    &::before{
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+.tox {
+    .tox-dialog__footer {
+        .tox-button{
+            background: $primary-button !important;
+            &.tox-button--secondary {
+                background: none !important;
+            }
+        }
+    }
+    .tox-dialog__body-nav-item--active{
+        color: $primary !important;
+        border-bottom: 2px solid $primary !important;
+    }
+
+}
+button.tox-button{
+    border-color: $primary !important;
+}
+.tox .tox-textfield:focus, .tox .tox-listboxfield .tox-listbox--select:focus, .tox .tox-textarea:focus{
+    border-color: $primary !important;
+}
+.configuration-card-header__button{
+    .pgn__hstack{
+        span{
+            .small{
+                color: #ffffff !important;
+            }
+        }
+    }
+}
+
+.px-4.container-mw-xl.container-fluid .mt-3.pb-4.x-small.pgn__action-row{
+    display: none;
+}
+.px-4.container-mw-xl.container-fluid .pt-3.m-0.x-small.pgn__action-row{
+    padding-bottom: 2rem !important;
+}
