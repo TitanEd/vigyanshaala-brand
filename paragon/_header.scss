@@ -517,3 +517,31 @@
         }
     }
 }
+
+// header{
+//     div{
+//         div{
+//             a{
+//                 .logo{
+//                     width: 135px !important;
+//                     height: auto !important;
+//                 }
+//             }
+//         }
+//     }
+// }
+a{
+    .logo{
+        width: 135px !important;
+        height: auto !important;
+    }
+}
+.studio-header{
+    height: auto !important;
+}
+
+.course-title-lockup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
