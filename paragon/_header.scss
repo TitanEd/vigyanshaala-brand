@@ -545,3 +545,14 @@ a{
     flex-direction: column;
     justify-content: center;
 }
+
+// for learning header logo size and course title alignment
+header, .learning-header{
+    .logo{
+        height: auto !important;
+        img{
+            width: 135px !important;
+            height: auto !important;
+        }
+    }
+}
