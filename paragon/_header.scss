@@ -543,6 +543,19 @@ a{
 }
 .studio-header{
     height: auto !important;
+    .logo{
+        padding: 10px 0 !important;
+    }
+    .container-fluid{
+        header {
+            .ml-4{
+                margin-left: 0 !important;
+            }
+        };
+    }
+}
+.container-mw-xl {
+    max-width: 1600px !important;
 }
 
 .course-title-lockup {
