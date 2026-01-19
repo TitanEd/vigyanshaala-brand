@@ -1,0 +1,11 @@
+.page-gradebook{
+    .sidebar-contents{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .gradebook-content{
+            max-width: 1600px;
+        }
+    }
+}
