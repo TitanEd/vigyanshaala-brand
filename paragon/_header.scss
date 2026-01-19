@@ -127,6 +127,11 @@
             max-width: 1600px;
             margin: 0 auto;
             padding: 0 15px;
+            .nav-container{
+                .logo{
+                    padding: 0 !important;
+                }
+            }
         }
         .secondary-menu-container {
             .nav-link:hover,
@@ -154,7 +159,7 @@
                 font-size: 14px;
                 font-weight: 500;
                 line-height: 22px;
-                padding: 20px 0;
+                padding: 30px 0;
                 color: #374151;
                 margin: 0 16px 0 0;
                 display: block;
