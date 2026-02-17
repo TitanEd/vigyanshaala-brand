@@ -1,0 +1,172 @@
+#root{
+    //------------------------------ Home--------------------------------------------------------------
+    .home-page{
+        .hero-carousel{
+            .hero-nav{
+                svg{
+                    path{
+                        fill: $primary !important;
+                    }
+                }
+                &:hover{
+                    border-color: $primary !important;
+                }
+            }
+            .hero-track{
+                .hero-slide{
+                    .hero-container{
+                        div{
+                            div{
+                                h1{
+                                    .text-primary{
+                                        color: $primary !important;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .hero-indicators{
+                .bg-primary{
+                    background-color: $primary !important;
+                }
+                .bg-secondary{
+                    background-color: $secondary !important;
+                }
+            }
+        }
+        .carousel-arrow{
+            svg{
+                path{
+                    fill: #ffffff !important;
+                }
+            }
+        }
+        .testimonials{
+            .container{
+                .testimonial-slider{
+                    .hero-indicators{
+                        button{
+                            background-color: $secondary !important;
+                        }
+                        .bg-primary{
+                            background-color: $primary !important;
+                        }
+                    }
+                    .nav-arrow{
+                        svg{
+                            path{
+                                fill: $primary !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .success-story{
+            .container{
+                .card{
+                    .play-button-overlay{
+                        div{
+                            .bg-primary{
+                                background: $primary !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //------------------------------ Course catalog--------------------------------------------------------------
+    .pagination-primary{
+        .pagination{
+            .page-item{
+                button{
+                    span{
+                        span{
+                            svg{
+                                path{
+                                    fill: $primary !important;
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        background: $primary !important;
+                        span{
+                        span{
+                            svg{
+                                path{
+                                    fill: #ffffff !important;
+                                }
+                            }
+                        }
+                    }
+                    }
+                    &:active{
+                        background: $primary !important;
+
+                    }
+                    &:focus{
+                        border-color: $primary !important;
+                        box-shadow: none !important;
+                    }
+                }
+            }
+        }
+    }
+
+    //------------------------------ Course details--------------------------------------------------------------
+    .course-about-page{
+        .main-content{
+            .container{
+                div{
+                    div{
+                        .tab-container{
+                            div{
+                                .accordion{
+                                    .accordion-item{
+                                        button{
+                                            svg{
+                                                path{
+                                                    fill: $primary !important;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//------------------------------ Common--------------------------------------------------------------
+.btn-outline-primary{
+    border-color: $primary !important;
+    color: $primary !important;
+    &:hover{
+        background: none !important;         
+    }
+    &:active{
+        background: none !important;         
+    }   
+    &:focus{
+        background: none !important;         
+    }
+}
+.badge{
+    color: $primary !important;
+    background-color: rgba($primary, 0.15) !important;
+}
+.form-control{
+    &:focus{
+        border-color: $primary !important;
+        box-shadow: none !important;
+    }   
+}
